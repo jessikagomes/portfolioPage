@@ -1,3 +1,4 @@
+
  img {
  	width: 90%;
  }
@@ -5,8 +6,8 @@
 .imagem {
   position: relative;
   margin: auto;
-
 }
+
 .imagem span {
   position: absolute;
   opacity: 0;
@@ -17,12 +18,12 @@
   left: 0;
   top: 0;
   margin: auto;
-  transition: ease-in;
-
 }
+
 .imagem:hover span {
   opacity: 1;
   visibility: visible;
   bottom: 0;
-
+  transition: all;
 }
+
