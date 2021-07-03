@@ -28,6 +28,7 @@ img{
   opacity: 1;
   visibility: visible;
   bottom: 0;
-  /*transition: all;*/
+  opacity:100%;
+  transition:opacity 0.3s
 }
 
