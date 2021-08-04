@@ -1,7 +1,7 @@
 
 img{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
 
 .imagem {
@@ -13,18 +13,22 @@ img{
   position: absolute;
   opacity: 0;
   padding-top: 0;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
   background-color: white;
   color: black;
   right:0;
   left: 0;
   top: 0;
   bottom: 0;
+  width: 70%;
+  height: 100%;
   margin: auto;
 }
 
 .imagem:hover span {
-  opacity: 0.4;
+  opacity: 1;
   visibility: visible;
   bottom: 0;
   transition:opacity 0.3s;
